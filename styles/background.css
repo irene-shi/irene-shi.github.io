@@ -1,0 +1,109 @@
+.subheading {
+  margin: 0 0 12px;
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.background-group + .background-group {
+  margin-top: 30px;
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) auto;
+  gap: 17px;
+  align-items: start;
+  padding: 13px 0;
+}
+
+.school-logo {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.school-logo img {
+  width: auto;
+  max-width: 46px;
+  max-height: 46px;
+  object-fit: contain;
+}
+
+.shs-logo {
+  overflow: hidden;
+  position: relative;
+}
+
+.shs-logo img {
+  position: absolute;
+  max-width: none;
+  max-height: none;
+  width: 169px;
+  height: auto;
+  left: -4px;
+  top: -8px;
+}
+
+.education-body h4,
+.honor-item h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.education-body p,
+.honor-item p {
+  font-size: 12.5px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 3px 0 0;
+}
+
+.education-body .academic-detail {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.education-body .academic-detail strong {
+  color: var(--text);
+}
+
+.date {
+  font-size: 11.5px !important;
+  color: var(--faint) !important;
+  white-space: nowrap;
+  margin: 2px 0 0 !important;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.65;
+}
+
+.date span {
+  display: block;
+  text-align: right;
+}
+
+.honor-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+}
+
+.honor-item:last-child {
+  border-bottom: 0;
+}
+
+.honor-item h4 {
+  font-size: 13.5px;
+}
+
+.honor-item p {
+  font-size: 12px;
+}

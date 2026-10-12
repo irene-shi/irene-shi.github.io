@@ -1,0 +1,258 @@
+@media (min-width: 1250px) {
+  .page-layout {
+    gap: 76px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .page-layout {
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .publication {
+    grid-template-columns: 125px minmax(0, 1fr);
+    gap: 18px;
+  }
+  .figure-button {
+    height: 128px;
+  }
+  .education-item {
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 13px;
+  }
+  .education-item .date {
+    grid-column: 2;
+    margin-top: -10px !important;
+  }
+  .date span {
+    display: inline;
+    margin-left: 4px;
+  }
+  .sidebar h1 {
+    font-size: 26px;
+  }
+  .portrait {
+    width: 165px;
+    height: 165px;
+  }
+}
+
+@media (max-width: 760px) {
+  .header-inner {
+    padding: 0 22px;
+  }
+  .brand {
+    font-size: 16px;
+  }
+  nav {
+    gap: 0;
+  }
+  nav a {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .page-layout {
+    display: block;
+    max-width: 680px;
+    padding: 96px 25px 48px;
+  }
+  .sidebar {
+    position: static;
+    display: grid;
+    grid-template-columns: 125px minmax(0, 1fr);
+    gap: 0 25px;
+    text-align: left;
+    margin-bottom: 42px;
+    align-items: center;
+  }
+  .portrait {
+    grid-row: 1/4;
+    align-self: start;
+    width: 130px;
+    height: 130px;
+    margin: 0;
+  }
+  .sidebar h1 {
+    font-size: 28px;
+    margin-top: 2px;
+  }
+  .sidebar h1 span {
+    display: inline;
+    font-size: 19px;
+    letter-spacing: 0;
+    margin-left: 6px;
+  }
+  .affiliations {
+    margin: 8px 0 12px;
+  }
+  .social-links {
+    grid-column: 2;
+    display: flex;
+    gap: 3px 10px;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0;
+  }
+  .social-links a {
+    font-size: 0;
+    padding: 5px 3px;
+    gap: 0;
+  }
+  .social-links .icon {
+    width: 18px;
+    height: 18px;
+  }
+  .social-links a span {
+    font-size: 0;
+  }
+  .publication {
+    grid-template-columns: 125px minmax(0, 1fr);
+  }
+  .education-item {
+    grid-template-columns: 48px minmax(0, 1fr) auto;
+  }
+  .education-item .date {
+    grid-column: auto;
+    margin-top: 2px !important;
+  }
+  .date span {
+    display: block;
+    text-align: right;
+  }
+  .section-title {
+    font-size: 21px;
+  }
+  section + section {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 520px) {
+  .site-header {
+    height: auto;
+    min-height: 65px;
+  }
+  .header-inner {
+    padding: 13px 18px;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .brand {
+    line-height: 1.4;
+  }
+  nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  nav a {
+    padding: 4px 0;
+    font-size: 11px;
+  }
+  .page-layout {
+    padding: 111px 21px 40px;
+  }
+  .sidebar {
+    grid-template-columns: 108px minmax(0, 1fr);
+    gap: 0 19px;
+    margin-bottom: 35px;
+  }
+  .portrait {
+    width: 108px;
+    height: 108px;
+  }
+  .sidebar h1 {
+    font-size: 25px;
+  }
+  .sidebar h1 span {
+    font-family:
+      "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    display: block;
+    font-size: 17px;
+    margin: 4px 0 0;
+  }
+  .affiliations {
+    font-size: 12px;
+    margin: 7px 0;
+  }
+  .social-links {
+    gap: 3px 9px;
+  }
+  .social-links .icon {
+    width: 16px;
+    height: 16px;
+  }
+  .prose p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .publication {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 14px;
+  }
+  .figure-button {
+    height: auto;
+    aspect-ratio: 2.7;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+  }
+  .figure-button img {
+    max-height: 135px;
+  }
+  .zoom-label {
+    opacity: 1;
+  }
+  .publication h3 {
+    font-size: 16px;
+  }
+  .authors {
+    font-size: 12px;
+  }
+  .education-item {
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 13px;
+  }
+  .education-item .date {
+    grid-column: 2;
+    margin-top: -9px !important;
+  }
+  .date span {
+    display: inline;
+  }
+  .education-body h4 {
+    font-size: 13px;
+  }
+  .education-body p {
+    font-size: 12px;
+  }
+  .honor-item {
+    display: block;
+    padding: 13px 0;
+  }
+  .honor-item .date {
+    margin-top: 6px !important;
+  }
+  .figure-dialog {
+    padding: 15px;
+  }
+  .section-title {
+    scroll-margin-top: 110px;
+  }
+  html {
+    scroll-padding-top: 112px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+}

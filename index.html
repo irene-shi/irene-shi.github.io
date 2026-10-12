@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Xinrui Shi — undergraduate at Shanghai Jiao Tong University. Research in agents, AI safety, multimodal reasoning, and machine learning systems."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Xinrui Shi</title>
+    <link rel="icon" href="favicon.ico?v=cat-final-3" type="image/x-icon" />
+    <link
+      rel="preload"
+      href="assets/fonts/poppins-400.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="styles/index.css?v=b3981b80bdf9" />
+    <script src="scripts/figure-dialog.js?v=b3981b80bdf9" defer></script>
+    <script src="scripts/navigation.js?v=b3981b80bdf9" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg
+      class="icon-definitions"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <symbol id="github" viewBox="0 0 16 16">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="mail" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="m3 6 9 7 9-7" />
+        </g>
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2ZM8 19H5V9h3ZM6.5 7.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4ZM19 19h-3v-5.3c0-1.4-.4-2.1-1.5-2.1-1.2 0-1.8.8-1.8 2.1V19h-3V9h2.9v1.4c.4-.8 1.4-1.7 2.9-1.7 3 0 3.5 2 3.5 4.5Z"
+        />
+      </symbol>
+      <symbol id="scholar" viewBox="0 0 24 24">
+        <path fill="currentColor" d="m12 2 12 9-12 9L0 11Z" />
+        <circle cx="12" cy="16" r="6" fill="currentColor" />
+        <path
+          d="M7 12.5a6 6 0 0 1 10 0"
+          fill="none"
+          stroke="white"
+          stroke-width="1.4"
+        />
+      </symbol>
+      <symbol id="x" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M18.9 2H22l-6.8 7.8L23 22h-6.1l-4.8-7.5L5.5 22H2.3l7.3-8.4L1 2h6.3l4.4 6.8ZM17.9 20h1.7L6.2 3.9H4.4Z"
+        />
+      </symbol>
+      <symbol id="document" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+          <path d="M14 2v4a2 2 0 0 0 2 2h4M8 9h2M8 13h8M8 17h8" />
+        </g>
+      </symbol>
+      <symbol id="external" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M14 3h7v7M21 3 10 14M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"
+          />
+        </g>
+      </symbol>
+      <symbol id="database" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <ellipse cx="12" cy="5" rx="9" ry="3" />
+          <path d="M3 5v14a9 3 0 0 0 18 0V5M3 12a9 3 0 0 0 18 0" />
+        </g>
+      </symbol>
+      <symbol id="globe" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <ellipse cx="12" cy="12" rx="4" ry="10" />
+          <path d="M2 12h20" />
+        </g>
+      </symbol>
+      <symbol id="book-open" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M12 5v16M12 5C9 3 6 3 2 4v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-4-1-7-1-10 1Z"
+          />
+        </g>
+      </symbol>
+      <symbol id="pdf" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M14 3v4a1 1 0 0 0 1 1h4M5 12V5a2 2 0 0 1 2-2h7l5 5v4M5 18h1.5a1.5 1.5 0 0 0 0-3H5v6M17 18h2M20 15h-3v6M11 15v6h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-1"
+          />
+        </g>
+      </symbol>
+    </svg>
+    <header class="site-header">
+      <div class="header-inner">
+        <nav aria-label="Main navigation">
+          <a href="#about" class="active" aria-current="location">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#background">Background</a>
+          <a href="assets/Xinrui-Shi-CV.pdf" target="_blank" rel="noopener"
+            >CV <span aria-hidden="true">↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <div class="page-layout">
+      <aside class="sidebar" aria-label="Personal profile">
+        <div class="portrait">
+          <img
+            src="assets/images/photo.jpg"
+            width="3850"
+            height="5776"
+            alt="Xinrui Shi smiling outdoors"
+          />
+        </div>
+        <h1>Xinrui Shi <span lang="zh">石欣睿</span></h1>
+        <p class="affiliations">SJTU <span aria-hidden="true">|</span> Stanford</p>
+        <ul class="social-links">
+          <li>
+            <a href="https://github.com/irene-shi" target="_blank" rel="noopener"
+              ><svg class="icon" aria-hidden="true"><use href="#github" /></svg
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a href="mailto:irene_05@sjtu.edu.cn"
+              ><svg class="icon" aria-hidden="true"><use href="#mail" /></svg
+              ><span>Email </span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://scholar.google.com/citations?user=fyKMbbUAAAAJ&amp;hl=en"
+              target="_blank"
+              rel="noopener"
+              ><svg class="icon" aria-hidden="true"><use href="#scholar" /></svg
+              >Google Scholar</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/xinrui-shi-467642393/?isSelfProfile=true"
+              target="_blank"
+              rel="noopener"
+              ><svg class="icon" aria-hidden="true"><use href="#linkedin" /></svg
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://x.com/xinruishi11" target="_blank" rel="noopener"
+              ><svg class="icon" aria-hidden="true"><use href="#x" /></svg>X /
+              Twitter</a
+            >
+          </li>
+          <li>
+            <a href="assets/Xinrui-Shi-CV.pdf" target="_blank" rel="noopener"
+              ><svg class="icon" aria-hidden="true"><use href="#document" /></svg
+              >CV</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <main id="main">
+        <section id="about">
+          <h2 class="section-title">About</h2>
+          <div class="prose">
+            <p>
+              Hello! I'm <strong>Xinrui Shi</strong>, a senior undergraduate student
+              majoring in Software Engineering at
+              <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener"
+                >Shanghai Jiao Tong University</a
+              >. I'm currently a research intern at
+              <a href="https://saltlab.stanford.edu/" target="_blank" rel="noopener"
+                >SALT Lab</a
+              >
+              at
+              <a href="https://www.stanford.edu/" target="_blank" rel="noopener"
+                >Stanford University</a
+              >, working with
+              <a href="https://cs.stanford.edu/~diyiy/" target="_blank" rel="noopener"
+                >Prof. Diyi Yang</a
+              >.
+            </p>
+            <p>
+              At SJTU, I have also worked with
+              <a href="https://yulunzhang.com" target="_blank" rel="noopener"
+                >Prof. Yulun Zhang</a
+              >
+              on multimodal reasoning,
+              <a href="https://dirtyharrylyl.github.io" target="_blank" rel="noopener"
+                >Prof. Yong-Lu Li</a
+              >
+              at
+              <a href="https://mvig-rhos.com" target="_blank" rel="noopener"
+                >RHOS Lab</a
+              >
+              on human-agent collaboration for 4D reconstruction, and
+              <a href="https://dong.mk" target="_blank" rel="noopener"
+                >Prof. Mingkai Dong</a
+              >
+              at
+              <a href="https://ipads.sjtu.edu.cn" target="_blank" rel="noopener"
+                >IPADS</a
+              >
+              on efficient mobile LLM inference.
+            </p>
+            <p>
+              I’m always happy to discuss research and potential collaborations. Feel
+              free to <a href="mailto:irene_05@sjtu.edu.cn">get in touch</a>!
+            </p>
+          </div>
+        </section>
+        <section id="research">
+          <h2 class="section-title">Research Interests</h2>
+          <div class="prose">
+            <p>
+              My research goal is to build
+              <strong>capable and trustworthy AI systems</strong> that can operate
+              autonomously in complex real-world environments. In particular, I'm
+              interested in <strong>agents</strong> and <strong>AI safety</strong>,
+              especially how interaction shapes agent behavior over time. My broader
+              interests also include multimodal reasoning and machine learning systems.
+            </p>
+          </div>
+        </section>
+        <section id="publications">
+          <h2 class="section-title">Publications</h2>
+          <p class="section-note">* Equal contribution</p>
+          <div class="publications">
+            <article class="publication">
+              <div class="publication-media">
+                <span class="conference-flag" aria-label="Preprint">Preprint</span
+                ><button
+                  class="figure-button"
+                  data-image="assets/images/collusion.png"
+                  data-title="Emergent Collusion"
+                  aria-label="Enlarge Emergent Collusion main figure"
+                >
+                  <img
+                    src="assets/images/collusion.png"
+                    width="1662"
+                    height="608"
+                    alt="Overview of emergent collusion in long-horizon LLM agent interaction"
+                  /><span class="zoom-label" aria-hidden="true">View figure ↗</span>
+                </button>
+              </div>
+              <div class="publication-body">
+                <h3>
+                  <a href="https://arxiv.org/abs/2609.24967" target="_blank" rel="noopener"
+                    >Emergent Collusion in Long-Horizon LLM Agent Interaction</a
+                  >
+                </h3>
+                <p class="authors">
+                  <strong>Xinrui Shi*</strong>, Yanzhe Zhang*, Diyi Yang
+                </p>
+                <p class="venue"><em>Submitted to ICLR 2027</em></p>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/pdf/2609.24967" target="_blank" rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#pdf" /></svg>PDF</a
+                  ><a
+                    href="https://github.com/SALT-NLP/agent-collusion"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#github" /></svg
+                    >Code</a
+                  ><a
+                    href="https://huggingface.co/datasets/SALT-NLP/agent-collusion"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#database" /></svg
+                    >Data</a
+                  ><a
+                    href="https://salt-nlp.github.io/agent-collusion-website/"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#globe" /></svg
+                    >Website</a
+                  ><a
+                    href="https://x.com/xinruishi11/status/2102781261437935942?s=20"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#book-open" /></svg
+                    >Blog</a
+                  >
+                </div>
+                <p class="invited-talk">
+                  <strong>Invited talk:</strong> Microsoft AI Safety &amp; Security Science
+                  Speaker Series, Oct 2026
+                </p>
+              </div>
+            </article>
+            <article class="publication">
+              <div class="publication-media">
+                <span class="conference-flag" aria-label="Accepted at NeurIPS 2026"
+                  >NeurIPS</span
+                ><button
+                  class="figure-button"
+                  data-image="assets/images/drscaffold.png"
+                  data-title="DRScaffold"
+                  aria-label="Enlarge DRScaffold main figure"
+                >
+                  <img
+                    src="assets/images/drscaffold.png"
+                    width="1764"
+                    height="782"
+                    loading="lazy"
+                    alt="DRScaffold dense-scene reasoning framework"
+                  /><span class="zoom-label" aria-hidden="true">View figure ↗</span>
+                </button>
+              </div>
+              <div class="publication-body">
+                <h3>
+                  <a href="https://arxiv.org/abs/2605.26038" target="_blank" rel="noopener"
+                    >DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision
+                    Language Models</a
+                  >
+                </h3>
+                <p class="authors">
+                  <strong>Xinrui Shi*</strong>, Kai Liu*, Ziqing Zhang, Jianze Li, Anqi Li,
+                  Yulun Zhang
+                </p>
+                <p class="venue"><em>NeurIPS 2026, Dec 2026</em></p>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/pdf/2605.26038" target="_blank" rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#pdf" /></svg>PDF</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="publication">
+              <div class="publication-media">
+                <span class="conference-flag" aria-label="Accepted at ECCV 2026">ECCV</span
+                ><button
+                  class="figure-button"
+                  data-image="assets/images/hat-4d.png"
+                  data-title="HAT-4D"
+                  aria-label="Enlarge HAT-4D main figure"
+                >
+                  <img
+                    src="assets/images/hat-4d.png"
+                    width="1954"
+                    height="750"
+                    loading="lazy"
+                    alt="HAT-4D human-agent collaboration for multi-object 4D reconstruction"
+                  /><span class="zoom-label" aria-hidden="true">View figure ↗</span>
+                </button>
+              </div>
+              <div class="publication-body">
+                <h3>
+                  <a href="https://arxiv.org/abs/2606.28215" target="_blank" rel="noopener"
+                    >HAT-4D: Lifting Monocular Video for 4D Multi-object Interactions via
+                    Human-Agent Collaboration</a
+                  >
+                </h3>
+                <p class="authors">
+                  Jiaxin Li*, Yuxiang Wu*, Zhenkai Zhang, <strong>Xinrui Shi</strong>,
+                  Haoyuan Wang, Yichen Zhao, Su Linxiang, Chenyang Yu, Mingyu Zhang, Yifan
+                  Ding, Boran Wen, Li Zhang, Ruiyang Liu, Yong-Lu Li
+                </p>
+                <p class="venue"><em>ECCV 2026, Sep 2026</em></p>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/pdf/2606.28215" target="_blank" rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#pdf" /></svg>PDF</a
+                  ><a
+                    href="https://github.com/Lijiaxin0111/HAT-4D-Lifting-Monocular-Video-for-4D-Multi-Object-Interactions-via-Human-Agent-Collaboration"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#github" /></svg
+                    >Code</a
+                  ><a
+                    href="https://huggingface.co/datasets/Lijiaxin0111/MVOIK-4D"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#database" /></svg
+                    >Data</a
+                  ><a
+                    href="https://lijiaxin0111.github.io/HAT4D/"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#globe" /></svg
+                    >Website</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="publication">
+              <div class="publication-media">
+                <span class="conference-flag" aria-label="Accepted at OSDI 2026">OSDI</span
+                ><button
+                  class="figure-button"
+                  data-image="assets/images/sereno.png"
+                  data-title="Sereno"
+                  aria-label="Enlarge Sereno main figure"
+                >
+                  <img
+                    src="assets/images/sereno.png"
+                    width="1718"
+                    height="570"
+                    loading="lazy"
+                    alt="Sereno mobile LLM inference system overview"
+                  /><span class="zoom-label" aria-hidden="true">View figure ↗</span>
+                </button>
+              </div>
+              <div class="publication-body">
+                <h3>
+                  <a
+                    href="https://www.usenix.org/conference/osdi26/presentation/xin"
+                    target="_blank"
+                    rel="noopener"
+                    >Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile
+                    LLM Inference with Sereno</a
+                  >
+                </h3>
+                <p class="authors">
+                  Tong Xin, <strong>Xinrui Shi</strong>, Mingkai Dong, Zeyu Mi
+                </p>
+                <p class="venue"><em>OSDI 2026, Jul 2026</em></p>
+                <div class="paper-links">
+                  <a
+                    href="https://www.usenix.org/system/files/osdi26-xin.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    ><svg class="icon" aria-hidden="true"><use href="#pdf" /></svg>PDF</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section id="background">
+          <h2 class="section-title">Background</h2>
+          <div class="background-group">
+            <h3 class="subheading">Education</h3>
+            <div class="education-item">
+              <a
+                class="school-logo"
+                href="https://www.sjtu.edu.cn/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Shanghai Jiao Tong University website"
+                ><img
+                  src="assets/logos/sjtu.png"
+                  width="316"
+                  height="316"
+                  loading="lazy"
+                  alt="Shanghai Jiao Tong University seal"
+              /></a>
+              <div class="education-body">
+                <h4>Shanghai Jiao Tong University</h4>
+                <p>B.S. in Software Engineering, School of Computer Science</p>
+                <p class="academic-detail">
+                  GPA: <strong>4.13/4.3</strong>, Rank: <strong>1/97</strong>
+                </p>
+              </div>
+              <p class="date">Sep 2023 – Jun 2027<span>(expected)</span></p>
+            </div>
+            <div class="education-item">
+              <a
+                class="school-logo"
+                href="https://www.stanford.edu/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Stanford University website"
+                ><img
+                  src="assets/logos/stanford.svg"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  alt="Stanford University emblem"
+              /></a>
+              <div class="education-body">
+                <h4>Stanford University</h4>
+                <p>Undergraduate Visiting Research Intern</p>
+                <p class="academic-detail">Advisor: Prof. Diyi Yang</p>
+              </div>
+              <p class="date">Jun 2026 – Aug 2026</p>
+            </div>
+            <div class="education-item">
+              <a
+                class="school-logo shs-logo"
+                href="https://www.shs.cn/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Shanghai High School website"
+                ><img
+                  src="assets/logos/shs.png"
+                  width="368"
+                  height="140"
+                  loading="lazy"
+                  alt="Shanghai High School seal"
+              /></a>
+              <div class="education-body">
+                <h4>Shanghai High School</h4>
+                <p>High School</p>
+              </div>
+              <p class="date">Sep 2020 – Jun 2023</p>
+            </div>
+          </div>
+          <div class="background-group">
+            <h3 class="subheading">Honors</h3>
+            <div class="honor-item">
+              <div>
+                <h4>National Scholarship</h4>
+                <p>Top 0.4% Nationwide</p>
+              </div>
+              <p class="date">2024, 2025, 2026</p>
+            </div>
+            <div class="honor-item">
+              <div>
+                <h4>
+                  Shanghai Jiao Tong University Undergraduate Category A Scholarship
+                </h4>
+                <p>Top 1% in SJTU</p>
+              </div>
+              <p class="date">2024, 2026</p>
+            </div>
+            <div class="honor-item">
+              <div>
+                <h4>CCF Elite Collegiate Award</h4>
+                <p>1 of 103 Nationwide</p>
+              </div>
+              <p class="date">2026</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="site-footer">
+      © 2026 Xinrui Shi. Last updated in October 2026.
+    </footer>
+    <dialog class="figure-dialog" aria-labelledby="figure-title">
+      <div class="dialog-heading">
+        <h2 id="figure-title">Research figure</h2>
+        <button class="close-dialog" aria-label="Close figure">×</button>
+      </div>
+      <img class="expanded-figure" alt="" />
+    </dialog>
+  </body>
+</html>

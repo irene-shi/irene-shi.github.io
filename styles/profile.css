@@ -1,0 +1,92 @@
+.sidebar {
+  position: sticky;
+  top: 109px;
+  align-self: start;
+  text-align: center;
+}
+
+.portrait {
+  width: 182px;
+  height: 182px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 21px;
+  background: var(--blue-soft);
+  border: 1px solid var(--line);
+  position: relative;
+}
+
+.portrait img {
+  position: absolute;
+  max-width: none;
+  width: 135%;
+  height: auto;
+  left: -30%;
+  top: -42%;
+}
+
+.sidebar h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.9px;
+}
+
+.sidebar h1 span {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  display: block;
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--faint);
+  letter-spacing: 2px;
+  margin-top: 4px;
+}
+
+.affiliations {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 11px 0 23px;
+  font-weight: 500;
+}
+
+.affiliations span {
+  margin: 0 10px;
+  color: #b7bec5;
+}
+
+.social-links {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.social-links a {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 5px 4px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+}
+
+.social-links .icon {
+  transition: transform 0.2s;
+}
+
+.social-links a:hover .icon {
+  transform: scale(1.12);
+}
+
+.social-links .icon {
+  width: 16px;
+  height: 16px;
+}
