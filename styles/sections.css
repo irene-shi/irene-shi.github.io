@@ -41,7 +41,29 @@ section + section {
 }
 
 .section-note {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--faint);
   margin: -13px 0 17px;
+}
+
+.prose .org-link {
+  white-space: normal;
+  cursor: pointer;
+}
+.prose .org-ending {
+  white-space: nowrap;
+}
+.prose .org-icon {
+  display: inline-block;
+  width: auto;
+  height: 1.1em;
+  max-width: none;
+  margin-left: 0.2em;
+  vertical-align: -0.2em;
+  object-fit: contain;
+  cursor: pointer;
+}
+.prose .org-icon--salt {
+  height: 1.3em;
+  vertical-align: -0.25em;
 }

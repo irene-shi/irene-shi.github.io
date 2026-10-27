@@ -44,14 +44,14 @@
 }
 
 .affiliations {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--muted);
   margin: 11px 0 23px;
   font-weight: 500;
 }
 
 .affiliations span {
-  margin: 0 10px;
+  margin: 0 5px;
   color: #b7bec5;
 }
 

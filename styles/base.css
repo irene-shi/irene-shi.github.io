@@ -31,6 +31,10 @@
 }
 
 :root {
+  --text-body: 15px;
+  --text-title: 15px;
+  --text-detail: 13px;
+  --text-small: 13px;
   --accent: #4c96b7;
   --text: #303337;
   --muted: #555b62;
@@ -57,7 +61,7 @@ body {
   background: #fff;
   color: var(--text);
   font-family: var(--font);
-  font-size: 15.5px;
+  font-size: var(--text-body);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }

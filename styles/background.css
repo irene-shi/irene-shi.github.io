@@ -1,8 +1,8 @@
 .subheading {
   margin: 0 0 12px;
-  font-size: 11px;
-  letter-spacing: 1.8px;
-  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
   text-transform: uppercase;
   color: var(--faint);
 }
@@ -51,7 +51,7 @@
 
 .education-body h4,
 .honor-item h4 {
-  font-size: 14px;
+  font-size: var(--text-title);
   font-weight: 600;
   line-height: 1.5;
   margin: 0;
@@ -59,7 +59,7 @@
 
 .education-body p,
 .honor-item p {
-  font-size: 12.5px;
+  font-size: var(--text-detail);
   color: var(--muted);
   line-height: 1.6;
   margin: 3px 0 0;
@@ -67,7 +67,7 @@
 
 .education-body .academic-detail {
   color: var(--muted);
-  font-size: 12px;
+  font-size: var(--text-detail);
 }
 
 .education-body .academic-detail strong {
@@ -75,7 +75,7 @@
 }
 
 .date {
-  font-size: 11.5px !important;
+  font-size: var(--text-small) !important;
   color: var(--faint) !important;
   white-space: nowrap;
   margin: 2px 0 0 !important;
@@ -101,9 +101,9 @@
 }
 
 .honor-item h4 {
-  font-size: 13.5px;
+  font-size: var(--text-title);
 }
 
 .honor-item p {
-  font-size: 12px;
+  font-size: var(--text-detail);
 }
